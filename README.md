@@ -95,16 +95,17 @@ Cloudflare Tunnel → Internet (HTTPS, free, no port forwarding)
 
 ## 🚀 Running Stack
 
-| Service | Machine | Port | Purpose |
-|---------|---------|------|---------|
-| Nginx | CB#1 | `:80` | Web server / reverse proxy |
-| Portainer | CB#1 | `:9000` | Docker visual management GUI |
-| Cloudflared | CB#1 | systemd | Cloudflare Tunnel — always on |
-| PicoClaw | CB#1 | - | AI agent — mobile remote control |
-| Prometheus | CB#2 | `:9090` | Metrics collection & storage |
-| Grafana | CB#2 | `:3000` | Monitoring dashboards |
-| Node Exporter | CB#2 | `:9100` | Linux system metrics |
-| Pi-hole | CB#2 | `:80` | Network-wide ad blocking + DHCP |
+| Service | Machine | Port | Public URL | Purpose |
+|---------|---------|------|------------|---------|
+| Nginx | CB#1 | `:80` | [ayush1.xyz](https://ayush1.xyz) | Web server / reverse proxy |
+| Portainer | CB#1 | `:9000` | [portainer.ayush1.xyz](https://portainer.ayush1.xyz) | Docker visual management GUI |
+| Cloudflared | CB#1 | systemd | - | Cloudflare Tunnel — always on |
+| PicoClaw | CB#1 | - | - | AI agent — mobile remote control |
+| Prometheus | CB#2 | `:9090` | [prometheus.ayush1.xyz](https://prometheus.ayush1.xyz) | Metrics collection & storage |
+| Grafana | CB#2 | `:3000` | [grafana.ayush1.xyz](https://grafana.ayush1.xyz) | Monitoring dashboards |
+| Node Exporter | CB#2 | `:9100` | - | Linux system metrics |
+| Pi-hole | CB#2 | `:80` | - | Network-wide ad blocking + DHCP |
+
 
 ---
 
